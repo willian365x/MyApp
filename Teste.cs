@@ -1,5 +1,3 @@
-using System.Runtime.InteropServices;
-
 class Teste
 {
     const int QTD_LINHAS = 80;
@@ -10,7 +8,7 @@ class Teste
         Console.Clear();
         Linhas(QTD_LINHAS);
 
-        const int IDADE = 25; // Constante idade minima
+        const byte IDADE = 25; // Constante idade minima
         var texto = "Carla";
 
         Console.WriteLine();
